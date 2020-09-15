@@ -54,7 +54,7 @@ ${KNATIVE_CODEGEN_PKG}/hack/generate-knative.sh "injection" \
 ${GOPATH}/bin/deepcopy-gen \
   -O zz_generated.deepcopy \
   --go-header-file ${REPO_ROOT_DIR}/hack/boilerplate.go.txt \
-  -i knative.dev/eventing-awsqsq/pkg/apis \
+  -i knative.dev/eventing-awssqs/pkg/apis \
 
 # Make sure our dependencies are up-to-date
 ${REPO_ROOT_DIR}/hack/update-deps.sh
