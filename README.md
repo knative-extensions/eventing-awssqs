@@ -1,25 +1,14 @@
-# Knative Eventing Contrib
+# Knative Eventing AWS SQS Source
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative/eventing-contrib)
-[![Go Report Card](https://goreportcard.com/badge/knative/eventing-contrib)](https://goreportcard.com/report/knative/eventing-contrib)
-[![Releases](https://img.shields.io/github/release-pre/knative/eventing-contrib.svg)](https://github.com/knative/eventing-contrib/releases)
-[![LICENSE](https://img.shields.io/github/license/knative/eventing-contrib.svg)](https://github.com/knative/eventing-contrib/blob/master/LICENSE)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/knative-sandbox/eventing-awssqs)
+[![Go Report Card](https://goreportcard.com/badge/knative-sandbox/eventing-awssqs)](https://goreportcard.com/report/knative/eventing-)
+[![Releases](https://img.shields.io/github/release-pre/knative-sandbox/eventing-awssqs.svg)](https://github.com/knative-sandbox/eventing-awssqs/releases)
+[![LICENSE](https://img.shields.io/github/license/knative-sandbox/eventing-awssqs.svg)](https://github.com/knative-sandbox/eventing-awssqs/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://knative.slack.com)
 
-The Knative Eventing Contrib project provides source and channel implementations
-that:
+The Knative Eventing AWS SQS project provides a source implementation
+that registers for events on the specified SQS Queue
 
-- Integrate with Apache Camel-K
-- Integrate with Apache CouchDB
-- Integrate with Apache Kafka
-- Integrate with AWS SQS
-- Integrate with Ceph
-- Integrate with GitHub
-- Integrate with GitLab
-- Integrate with NATS Streaming
-- Integrate with Prometheus
-- Integrate with Websockets
-- Expose an ingress
 
 For complete documentation about Knative Eventing, see the following repos:
 
