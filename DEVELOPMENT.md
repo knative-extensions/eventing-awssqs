@@ -29,7 +29,7 @@ You must have [ko](https://github.com/google/ko) installed.
 ### Checkout your fork
 
 The Go tools require that you clone the repository to the
-`src/knative.dev/eventing-contrib` directory in your
+`src/knative.dev/eventing-awssqs` directory in your
 [`GOPATH`](https://github.com/golang/go/wiki/SettingGOPATH).
 
 To check out this repository:
@@ -41,9 +41,9 @@ To check out this repository:
 ```shell
 mkdir -p ${GOPATH}/src/knative.dev
 cd ${GOPATH}/src/knative.dev
-git clone git@github.com:${YOUR_GITHUB_USERNAME}/eventing-contrib.git
-cd eventing-contrib
-git remote add upstream git@github.com:knative/eventing-contrib.git
+git clone git@github.com:${YOUR_GITHUB_USERNAME}/eventing-awssqs.git
+cd eventing-awssqs
+git remote add upstream git@github.com:knative-sandbox/eventing-awssqs.git
 git remote set-url --push upstream no_push
 ```
 
@@ -55,23 +55,22 @@ follows.
 
 ## Installing Sources
 
-Once you've [setup your development environment](#getting-started), install any
-of the sources _Github Source_, _AWS SQS Source_, _Camel Source_, _Kafka Source_
-with:
+Once you've [setup your development environment](#getting-started), install the
+_AWS SQS Source_ with:
 
 ```
-ko apply -f <source_name>/config  # e.g. github/config
+ko apply -f config
 ```
 
 These commands are idempotent, so you can run them at any time to update your
 deployment.
 
-If you applied the _GitHub Source_, you can see things running with:
+If you applied the _AWS SQS Source_, you can see things running with:
 
 ```shell
 $ kubectl -n knative-sources get pods
 NAME                          READY     STATUS    RESTARTS   AGE
-github-controller-manager-0   1/1       Running   0          2h
+awssqs-controller-xyz-xyz   1/1       Running   0          2h
 ```
 
 You can access the Github eventing manager's logs with:
@@ -81,14 +80,10 @@ kubectl -n knative-sources logs \
     $(kubectl \
         -n knative-sources \
         get pods \
-        -l control-plane=github-controller-manager \
+        -l control-plane=awssqs-controller-manager \
         -o name \
     )
 ```
-
-_See [camel/source/samples/README.md](./camel/source/samples/README.md),
-[kafka/source/README.md](./kafka/source/README.md) for instructions on
-installing the Camel Source and Kafka Source._
 
 ## Iterating
 
@@ -127,7 +122,7 @@ Running tests as you make changes to the code-base is pretty simple. See
 You can delete `Knative Sources` with:
 
 ```shell
-ko delete -f <source_name>/config/
+ko delete -f /config/
 ```
 
 <!--
