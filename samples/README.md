@@ -6,8 +6,8 @@ from an AWS SQS queue.
 ## Deployment Steps
 
 The steps below assume that you have cloned the
-[eventing-awssqs](https://github.com/knative-sandbox/eventing-awssqs) repo and run the
-commands from the root.
+[eventing-awssqs](https://github.com/knative-sandbox/eventing-awssqs) repo and
+run the commands from the root.
 
 ### Prerequisites
 

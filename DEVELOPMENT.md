@@ -55,8 +55,8 @@ follows.
 
 ## Installing Sources
 
-Once you've [setup your development environment](#getting-started), install
-the _AWS SQS Source_ with:
+Once you've [setup your development environment](#getting-started), install the
+_AWS SQS Source_ with:
 
 ```
 ko apply -f config

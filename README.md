@@ -6,9 +6,8 @@
 [![LICENSE](https://img.shields.io/github/license/knative-sandbox/eventing-awssqs.svg)](https://github.com/knative-sandbox/eventing-awssqs/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://knative.slack.com)
 
-The Knative Eventing AWS SQS project provides a source implementation
-that registers for events on the specified SQS Queue
-
+The Knative Eventing AWS SQS project provides a source implementation that
+registers for events on the specified SQS Queue
 
 For complete documentation about Knative Eventing, see the following repos:
 
