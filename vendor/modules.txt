@@ -35,8 +35,6 @@ github.com/alecthomas/template
 github.com/alecthomas/template/parse
 # github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d
 github.com/alecthomas/units
-# github.com/apache/camel-k v0.0.0-20200430164844-778ae8a2bd63
-github.com/apache/camel-k/pkg/apis/camel/v1
 # github.com/aws/aws-sdk-go v1.31.12
 ## explicit
 github.com/aws/aws-sdk-go/aws
@@ -153,8 +151,6 @@ github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
 # github.com/google/go-github/v27 v27.0.6
 github.com/google/go-github/v27/github
-# github.com/google/go-github/v31 v31.0.0
-github.com/google/go-github/v31/github
 # github.com/google/go-querystring v1.0.0
 github.com/google/go-querystring/query
 # github.com/google/gofuzz v1.1.0
@@ -169,7 +165,6 @@ github.com/google/mako/internal/quickstore_microservice/proto/quickstore_go_prot
 github.com/google/mako/proto/quickstore/quickstore_go_proto
 github.com/google/mako/spec/proto/mako_go_proto
 # github.com/google/uuid v1.1.1
-## explicit
 github.com/google/uuid
 # github.com/googleapis/gax-go/v2 v2.0.5
 github.com/googleapis/gax-go/v2
@@ -191,6 +186,7 @@ github.com/hashicorp/golang-lru/simplelru
 # github.com/imdario/mergo v0.3.9
 github.com/imdario/mergo
 # github.com/influxdata/tdigest v0.0.1
+## explicit
 github.com/influxdata/tdigest
 # github.com/jmespath/go-jmespath v0.3.0
 github.com/jmespath/go-jmespath
@@ -265,6 +261,7 @@ github.com/stretchr/testify/require
 # github.com/tsenart/vegeta v12.7.1-0.20190725001342-b5f4fca92137+incompatible
 github.com/tsenart/vegeta/lib
 # go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2
+## explicit
 go.opencensus.io
 go.opencensus.io/internal
 go.opencensus.io/internal/tagencoding
@@ -301,9 +298,7 @@ go.uber.org/zap/buffer
 go.uber.org/zap/internal/bufferpool
 go.uber.org/zap/internal/color
 go.uber.org/zap/internal/exit
-go.uber.org/zap/internal/ztest
 go.uber.org/zap/zapcore
-go.uber.org/zap/zaptest
 # golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
 ## explicit
 golang.org/x/crypto/cast5
@@ -734,88 +729,47 @@ k8s.io/client-go/informers/storage/v1
 k8s.io/client-go/informers/storage/v1alpha1
 k8s.io/client-go/informers/storage/v1beta1
 k8s.io/client-go/kubernetes
-k8s.io/client-go/kubernetes/fake
 k8s.io/client-go/kubernetes/scheme
 k8s.io/client-go/kubernetes/typed/admissionregistration/v1
-k8s.io/client-go/kubernetes/typed/admissionregistration/v1/fake
 k8s.io/client-go/kubernetes/typed/admissionregistration/v1beta1
-k8s.io/client-go/kubernetes/typed/admissionregistration/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/apps/v1
-k8s.io/client-go/kubernetes/typed/apps/v1/fake
 k8s.io/client-go/kubernetes/typed/apps/v1beta1
-k8s.io/client-go/kubernetes/typed/apps/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/apps/v1beta2
-k8s.io/client-go/kubernetes/typed/apps/v1beta2/fake
 k8s.io/client-go/kubernetes/typed/auditregistration/v1alpha1
-k8s.io/client-go/kubernetes/typed/auditregistration/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/authentication/v1
-k8s.io/client-go/kubernetes/typed/authentication/v1/fake
 k8s.io/client-go/kubernetes/typed/authentication/v1beta1
-k8s.io/client-go/kubernetes/typed/authentication/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/authorization/v1
-k8s.io/client-go/kubernetes/typed/authorization/v1/fake
 k8s.io/client-go/kubernetes/typed/authorization/v1beta1
-k8s.io/client-go/kubernetes/typed/authorization/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/autoscaling/v1
-k8s.io/client-go/kubernetes/typed/autoscaling/v1/fake
 k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1
-k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1/fake
 k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2
-k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2/fake
 k8s.io/client-go/kubernetes/typed/batch/v1
-k8s.io/client-go/kubernetes/typed/batch/v1/fake
 k8s.io/client-go/kubernetes/typed/batch/v1beta1
-k8s.io/client-go/kubernetes/typed/batch/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/batch/v2alpha1
-k8s.io/client-go/kubernetes/typed/batch/v2alpha1/fake
 k8s.io/client-go/kubernetes/typed/certificates/v1beta1
-k8s.io/client-go/kubernetes/typed/certificates/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/coordination/v1
-k8s.io/client-go/kubernetes/typed/coordination/v1/fake
 k8s.io/client-go/kubernetes/typed/coordination/v1beta1
-k8s.io/client-go/kubernetes/typed/coordination/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/core/v1
-k8s.io/client-go/kubernetes/typed/core/v1/fake
 k8s.io/client-go/kubernetes/typed/discovery/v1alpha1
-k8s.io/client-go/kubernetes/typed/discovery/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/discovery/v1beta1
-k8s.io/client-go/kubernetes/typed/discovery/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/events/v1beta1
-k8s.io/client-go/kubernetes/typed/events/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/extensions/v1beta1
-k8s.io/client-go/kubernetes/typed/extensions/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/flowcontrol/v1alpha1
-k8s.io/client-go/kubernetes/typed/flowcontrol/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/networking/v1
-k8s.io/client-go/kubernetes/typed/networking/v1/fake
 k8s.io/client-go/kubernetes/typed/networking/v1beta1
-k8s.io/client-go/kubernetes/typed/networking/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/node/v1alpha1
-k8s.io/client-go/kubernetes/typed/node/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/node/v1beta1
-k8s.io/client-go/kubernetes/typed/node/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/policy/v1beta1
-k8s.io/client-go/kubernetes/typed/policy/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/rbac/v1
-k8s.io/client-go/kubernetes/typed/rbac/v1/fake
 k8s.io/client-go/kubernetes/typed/rbac/v1alpha1
-k8s.io/client-go/kubernetes/typed/rbac/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/rbac/v1beta1
-k8s.io/client-go/kubernetes/typed/rbac/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/scheduling/v1
-k8s.io/client-go/kubernetes/typed/scheduling/v1/fake
 k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
-k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/scheduling/v1beta1
-k8s.io/client-go/kubernetes/typed/scheduling/v1beta1/fake
 k8s.io/client-go/kubernetes/typed/settings/v1alpha1
-k8s.io/client-go/kubernetes/typed/settings/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/storage/v1
-k8s.io/client-go/kubernetes/typed/storage/v1/fake
 k8s.io/client-go/kubernetes/typed/storage/v1alpha1
-k8s.io/client-go/kubernetes/typed/storage/v1alpha1/fake
 k8s.io/client-go/kubernetes/typed/storage/v1beta1
-k8s.io/client-go/kubernetes/typed/storage/v1beta1/fake
 k8s.io/client-go/listers/admissionregistration/v1
 k8s.io/client-go/listers/admissionregistration/v1beta1
 k8s.io/client-go/listers/apps/v1
@@ -969,28 +923,17 @@ knative.dev/eventing/pkg/apis/sources/v1alpha1
 knative.dev/eventing/pkg/apis/sources/v1alpha2
 knative.dev/eventing/pkg/apis/sources/v1beta1
 knative.dev/eventing/pkg/client/clientset/versioned
-knative.dev/eventing/pkg/client/clientset/versioned/fake
 knative.dev/eventing/pkg/client/clientset/versioned/scheme
 knative.dev/eventing/pkg/client/clientset/versioned/typed/configs/v1alpha1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/configs/v1alpha1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/eventing/v1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/eventing/v1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/eventing/v1beta1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/eventing/v1beta1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/flows/v1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/flows/v1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/flows/v1beta1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/flows/v1beta1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/messaging/v1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/messaging/v1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/messaging/v1beta1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/messaging/v1beta1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1alpha1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1alpha1/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1alpha2
-knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1alpha2/fake
 knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1beta1
-knative.dev/eventing/pkg/client/clientset/versioned/typed/sources/v1beta1/fake
 knative.dev/eventing/pkg/client/injection/client
 knative.dev/eventing/pkg/configmap
 knative.dev/eventing/pkg/kncloudevents
@@ -1019,40 +962,6 @@ knative.dev/eventing/test/test_images/print
 knative.dev/eventing/test/test_images/recordevents
 knative.dev/eventing/test/test_images/sequencestepper
 knative.dev/eventing/test/test_images/transformevents
-# knative.dev/eventing-contrib v0.17.0
-## explicit
-knative.dev/eventing-contrib/camel/source/pkg/apis/sources/v1alpha1
-knative.dev/eventing-contrib/camel/source/pkg/client/clientset/versioned
-knative.dev/eventing-contrib/camel/source/pkg/client/clientset/versioned/fake
-knative.dev/eventing-contrib/camel/source/pkg/client/clientset/versioned/scheme
-knative.dev/eventing-contrib/camel/source/pkg/client/clientset/versioned/typed/sources/v1alpha1
-knative.dev/eventing-contrib/camel/source/pkg/client/clientset/versioned/typed/sources/v1alpha1/fake
-knative.dev/eventing-contrib/github
-knative.dev/eventing-contrib/github/pkg/apis/bindings
-knative.dev/eventing-contrib/github/pkg/apis/bindings/v1alpha1
-knative.dev/eventing-contrib/github/pkg/apis/sources/v1alpha1
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/fake
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/scheme
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/typed/bindings/v1alpha1
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/typed/bindings/v1alpha1/fake
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/typed/sources/v1alpha1
-knative.dev/eventing-contrib/github/pkg/client/clientset/versioned/typed/sources/v1alpha1/fake
-knative.dev/eventing-contrib/github/pkg/client/listers/sources/v1alpha1
-knative.dev/eventing-contrib/kafka/source/pkg/apis/bindings
-knative.dev/eventing-contrib/kafka/source/pkg/apis/bindings/v1alpha1
-knative.dev/eventing-contrib/kafka/source/pkg/apis/bindings/v1beta1
-knative.dev/eventing-contrib/kafka/source/pkg/apis/sources/v1alpha1
-knative.dev/eventing-contrib/kafka/source/pkg/apis/sources/v1beta1
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned/scheme
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned/typed/bindings/v1alpha1
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned/typed/bindings/v1beta1
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned/typed/sources/v1alpha1
-knative.dev/eventing-contrib/kafka/source/pkg/client/clientset/versioned/typed/sources/v1beta1
-knative.dev/eventing-contrib/test/e2e/helpers
-knative.dev/eventing-contrib/test/lib
-knative.dev/eventing-contrib/test/lib/resources
 # knative.dev/pkg v0.0.0-20200915170341-1d4e654a38f0
 ## explicit
 knative.dev/pkg/apis
@@ -1083,7 +992,6 @@ knative.dev/pkg/kmp
 knative.dev/pkg/leaderelection
 knative.dev/pkg/logging
 knative.dev/pkg/logging/logkey
-knative.dev/pkg/logging/testing
 knative.dev/pkg/metrics
 knative.dev/pkg/metrics/metricskey
 knative.dev/pkg/network
@@ -1091,11 +999,9 @@ knative.dev/pkg/network/handlers
 knative.dev/pkg/profiling
 knative.dev/pkg/ptr
 knative.dev/pkg/reconciler
-knative.dev/pkg/reconciler/testing
 knative.dev/pkg/resolver
 knative.dev/pkg/signals
 knative.dev/pkg/system
-knative.dev/pkg/system/testing
 knative.dev/pkg/test
 knative.dev/pkg/test/gcs
 knative.dev/pkg/test/ghutil
@@ -1120,7 +1026,6 @@ knative.dev/pkg/tracker
 knative.dev/pkg/version
 knative.dev/pkg/webhook
 knative.dev/pkg/webhook/certificates/resources
-knative.dev/pkg/webhook/resourcesemantics
 # knative.dev/test-infra v0.0.0-20200915193842-009b4149bcf8
 ## explicit
 knative.dev/test-infra/scripts

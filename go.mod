@@ -8,8 +8,9 @@ require (
 	github.com/aws/aws-sdk-go v1.31.12
 	github.com/cloudevents/sdk-go/v2 v2.2.0
 	github.com/google/go-cmp v0.5.2
-	github.com/google/uuid v1.1.1
+	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/stretchr/testify v1.6.0 // indirect
+	go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2 // indirect
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
 	golang.org/x/net v0.0.0-20200822124328-c89045814202
@@ -23,7 +24,6 @@ require (
 	k8s.io/apimachinery v0.19.0
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	knative.dev/eventing v0.17.1-0.20200915194141-b170c67ea137
-	knative.dev/eventing-contrib v0.17.0
 	knative.dev/pkg v0.0.0-20200915170341-1d4e654a38f0
 	knative.dev/test-infra v0.0.0-20200915193842-009b4149bcf8
 )
