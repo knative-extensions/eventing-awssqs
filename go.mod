@@ -3,7 +3,6 @@ module knative.dev/eventing-awssqs
 go 1.14
 
 require (
-	cloud.google.com/go v0.65.0 // indirect
 	cloud.google.com/go/storage v1.11.0 // indirect
 	github.com/aws/aws-sdk-go v1.31.12
 	github.com/cloudevents/sdk-go/v2 v2.2.0
@@ -13,19 +12,16 @@ require (
 	go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2 // indirect
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
-	golang.org/x/net v0.0.0-20200822124328-c89045814202
-	golang.org/x/sys v0.0.0-20200828081204-131dc92a58d5 // indirect
-	golang.org/x/tools v0.0.0-20200910222312-571a207697e7 // indirect
-	google.golang.org/genproto v0.0.0-20200828030656-73b5761be4c5 // indirect
-	google.golang.org/grpc v1.31.1 // indirect
+	golang.org/x/net v0.0.0-20200904194848-62affa334b73
+	golang.org/x/tools v0.0.0-20200916195026-c9a70fc28ce3 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200601152816-913338de1bd2 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.5 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.19.0
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.17.1-0.20200915194141-b170c67ea137
-	knative.dev/pkg v0.0.0-20200915170341-1d4e654a38f0
-	knative.dev/test-infra v0.0.0-20200915193842-009b4149bcf8
+	knative.dev/eventing v0.17.1-0.20200923160140-40f5749cd065
+	knative.dev/pkg v0.0.0-20200922164940-4bf40ad82aab
+	knative.dev/test-infra v0.0.0-20200921012245-37f1a12adbd3
 )
 
 replace (
