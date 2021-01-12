@@ -917,7 +917,8 @@ knative.dev/eventing/test/test_images/heartbeats
 knative.dev/eventing/test/test_images/performance
 knative.dev/eventing/test/test_images/print
 knative.dev/eventing/test/test_images/recordevents
-# knative.dev/hack v0.0.0-20201214230143-4ed1ecb8db24
+# knative.dev/hack v0.0.0-20210108203236-ea9c9a0cac5c
+## explicit
 knative.dev/hack
 # knative.dev/pkg v0.0.0-20210107022335-51c72e24c179
 ## explicit
