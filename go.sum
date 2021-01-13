@@ -2050,8 +2050,8 @@ k8s.io/utils v0.0.0-20200603063816-c1c6865ac451 h1:v8ud2Up6QK1lNOKFgiIVrZdMg7Mpm
 k8s.io/utils v0.0.0-20200603063816-c1c6865ac451/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 knative.dev/caching v0.0.0-20190719140829-2032732871ff/go.mod h1:dHXFU6CGlLlbzaWc32g80cR92iuBSpsslDNBWI8C7eg=
 knative.dev/caching v0.0.0-20200116200605-67bca2c83dfa/go.mod h1:dHXFU6CGlLlbzaWc32g80cR92iuBSpsslDNBWI8C7eg=
-knative.dev/eventing v0.19.1-0.20210112102830-a414aee50a2b h1:xAgY7CxlRxmrWzqWtbnSry6dP/VLF/LsyMvaqTBU8wY=
-knative.dev/eventing v0.19.1-0.20210112102830-a414aee50a2b/go.mod h1:7KjOHRQTPqsH0y1NbQLnboZeWJWVTztQVd/0lFCmz7A=
+knative.dev/eventing v0.20.0 h1:CtW8JYds0gvaiCWvoeX6zHbm8Jbfwu3hieyCTNudNnk=
+knative.dev/eventing v0.20.0/go.mod h1:7KjOHRQTPqsH0y1NbQLnboZeWJWVTztQVd/0lFCmz7A=
 knative.dev/eventing-contrib v0.6.1-0.20190723221543-5ce18048c08b/go.mod h1:SnXZgSGgMSMLNFTwTnpaOH7hXDzTFtw0J8OmHflNx3g=
 knative.dev/eventing-contrib v0.6.1-0.20190723221543-5ce18048c08b/go.mod h1:SnXZgSGgMSMLNFTwTnpaOH7hXDzTFtw0J8OmHflNx3g=
 knative.dev/eventing-contrib v0.6.1-0.20190723221543-5ce18048c08b/go.mod h1:SnXZgSGgMSMLNFTwTnpaOH7hXDzTFtw0J8OmHflNx3g=
@@ -2059,8 +2059,6 @@ knative.dev/eventing-contrib v0.11.2 h1:xncT+JrokPG+hPUFJwue8ubPpzmziV9GUIZqYt01
 knative.dev/eventing-contrib v0.11.2/go.mod h1:SnXZgSGgMSMLNFTwTnpaOH7hXDzTFtw0J8OmHflNx3g=
 knative.dev/hack v0.0.0-20201214230143-4ed1ecb8db24 h1:kIztWfvnIFV8Lhlea02K3YO2mIzcDyQNzrBLn0Oq9sA=
 knative.dev/hack v0.0.0-20201214230143-4ed1ecb8db24/go.mod h1:PHt8x8yX5Z9pPquBEfIj0X66f8iWkWfR0S/sarACJrI=
-knative.dev/hack v0.0.0-20210108203236-ea9c9a0cac5c h1:B/FwfbGrZRCwujjxVzFCc1sqNcAGL5oOm0ZkSSovSU8=
-knative.dev/hack v0.0.0-20210108203236-ea9c9a0cac5c/go.mod h1:PHt8x8yX5Z9pPquBEfIj0X66f8iWkWfR0S/sarACJrI=
 knative.dev/pkg v0.0.0-20191101194912-56c2594e4f11/go.mod h1:pgODObA1dTyhNoFxPZTTjNWfx6F0aKsKzn+vaT9XO/Q=
 knative.dev/pkg v0.0.0-20191111150521-6d806b998379/go.mod h1:pgODObA1dTyhNoFxPZTTjNWfx6F0aKsKzn+vaT9XO/Q=
 knative.dev/pkg v0.0.0-20200207155214-fef852970f43/go.mod h1:pgODObA1dTyhNoFxPZTTjNWfx6F0aKsKzn+vaT9XO/Q=
