@@ -26,8 +26,10 @@ import (
 )
 
 // AwsSqsSourceLister helps list AwsSqsSources.
+// All objects returned here must be treated as read-only.
 type AwsSqsSourceLister interface {
 	// List lists all AwsSqsSources in the indexer.
+	// Objects returned here must be treated as read-only.
 	List(selector labels.Selector) (ret []*v1alpha1.AwsSqsSource, err error)
 	// AwsSqsSources returns an object that can list and get AwsSqsSources.
 	AwsSqsSources(namespace string) AwsSqsSourceNamespaceLister
@@ -58,10 +60,13 @@ func (s *awsSqsSourceLister) AwsSqsSources(namespace string) AwsSqsSourceNamespa
 }
 
 // AwsSqsSourceNamespaceLister helps list and get AwsSqsSources.
+// All objects returned here must be treated as read-only.
 type AwsSqsSourceNamespaceLister interface {
 	// List lists all AwsSqsSources in the indexer for a given namespace.
+	// Objects returned here must be treated as read-only.
 	List(selector labels.Selector) (ret []*v1alpha1.AwsSqsSource, err error)
 	// Get retrieves the AwsSqsSource from the indexer for a given namespace and name.
+	// Objects returned here must be treated as read-only.
 	Get(name string) (*v1alpha1.AwsSqsSource, error)
 	AwsSqsSourceNamespaceListerExpansion
 }
