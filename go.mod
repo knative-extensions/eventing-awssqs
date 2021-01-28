@@ -16,4 +16,8 @@ require (
 	knative.dev/test-infra v0.0.0-20210127140531-f11f9e596286
 )
 
+// For some reason this is required. Specifying v0.19.7 above
+// followed by go mod tidy changes it to v9.0.0+incompatible.
+// Adding this here fixes it.
+// https://github.com/knative-sandbox/eventing-awssqs/issues/36
 replace k8s.io/client-go => k8s.io/client-go v0.19.7
