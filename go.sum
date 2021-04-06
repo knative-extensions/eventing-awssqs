@@ -1815,8 +1815,8 @@ k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89/go.mod h1:sZAwmy6armz5eXlNoLmJcl
 k8s.io/utils v0.0.0-20200729134348-d5654de09c73 h1:uJmqzgNWG7XyClnU/mLPBWwfKKF1K8Hf8whTseBgJcg=
 k8s.io/utils v0.0.0-20200729134348-d5654de09c73/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 knative.dev/caching v0.0.0-20200116200605-67bca2c83dfa/go.mod h1:dHXFU6CGlLlbzaWc32g80cR92iuBSpsslDNBWI8C7eg=
-knative.dev/eventing v0.22.1-0.20210406145939-fe7ae887f35d h1:QRhEQUEsS7aqyVQvW+MTxP21c2d1wXUsjazO6HFKMTc=
-knative.dev/eventing v0.22.1-0.20210406145939-fe7ae887f35d/go.mod h1:LOG7bh0eZQkbYANcnORwke6Yy6aUu62o8GeByaOFfRQ=
+knative.dev/eventing v0.22.1-0.20210406191848-5171353bd1ed h1:TDGiR+w4hHN+VaXWF4bg8mb7Avwen+pjPfwSJbVQbxA=
+knative.dev/eventing v0.22.1-0.20210406191848-5171353bd1ed/go.mod h1:LOG7bh0eZQkbYANcnORwke6Yy6aUu62o8GeByaOFfRQ=
 knative.dev/eventing-contrib v0.11.2 h1:xncT+JrokPG+hPUFJwue8ubPpzmziV9GUIZqYt01JDo=
 knative.dev/eventing-contrib v0.11.2/go.mod h1:SnXZgSGgMSMLNFTwTnpaOH7hXDzTFtw0J8OmHflNx3g=
 knative.dev/hack v0.0.0-20210325223819-b6ab329907d3 h1:km0Rrh0T9/wA2pivQm1hqSPVwgNgGCHC2WNn3GakZmE=
