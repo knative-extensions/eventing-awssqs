@@ -19,8 +19,11 @@ limitations under the License.
 package tools
 
 import (
+	_ "k8s.io/code-generator"
+	_ "knative.dev/hack"
+
+	// codegen: hack/generate-knative.sh
 	_ "knative.dev/pkg/hack"
-	_ "knative.dev/test-infra/scripts"
 
 	// Test images from eventing
 	_ "knative.dev/eventing/test/test_images/event-sender"

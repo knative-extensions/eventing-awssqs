@@ -363,6 +363,8 @@ golang.org/x/xerrors
 golang.org/x/xerrors/internal
 # gomodules.xyz/jsonpatch/v2 v2.1.0
 gomodules.xyz/jsonpatch/v2
+# gonum.org/v1/netlib v0.0.0-20190331212654-76723241ea4e
+## explicit
 # google.golang.org/api v0.36.0
 google.golang.org/api/googleapi
 google.golang.org/api/googleapi/transport
@@ -794,6 +796,7 @@ k8s.io/client-go/util/keyutil
 k8s.io/client-go/util/retry
 k8s.io/client-go/util/workqueue
 # k8s.io/code-generator v0.19.7
+## explicit
 k8s.io/code-generator
 k8s.io/code-generator/cmd/client-gen
 k8s.io/code-generator/cmd/client-gen/args
@@ -919,6 +922,7 @@ knative.dev/eventing/test/test_images/performance
 knative.dev/eventing/test/test_images/print
 knative.dev/eventing/test/test_images/recordevents
 # knative.dev/hack v0.0.0-20210325223819-b6ab329907d3
+## explicit
 knative.dev/hack
 # knative.dev/pkg v0.0.0-20210406170139-b8e331a6abf3
 ## explicit
@@ -986,9 +990,6 @@ knative.dev/pkg/tracker
 knative.dev/pkg/version
 knative.dev/pkg/webhook
 knative.dev/pkg/webhook/certificates/resources
-# knative.dev/test-infra v0.0.0-20210406052038-c003edb1958d
-## explicit
-knative.dev/test-infra/scripts
 # sigs.k8s.io/structured-merge-diff/v4 v4.0.1
 sigs.k8s.io/structured-merge-diff/v4/value
 # sigs.k8s.io/yaml v1.2.0
