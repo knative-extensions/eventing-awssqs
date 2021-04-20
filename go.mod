@@ -4,18 +4,18 @@ go 1.15
 
 require (
 	github.com/aws/aws-sdk-go v1.36.32
-	github.com/cloudevents/sdk-go/v2 v2.4.0
+	github.com/cloudevents/sdk-go/v2 v2.4.1
 	github.com/google/go-cmp v0.5.5
 	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/net v0.0.0-20210415231046-e915ea6b2b7d
 	gonum.org/v1/netlib v0.0.0-20190331212654-76723241ea4e // indirect
 	k8s.io/api v0.19.7
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v9.0.0+incompatible
 	k8s.io/code-generator v0.19.7
-	knative.dev/eventing v0.22.1-0.20210412234459-68afe5441d80
+	knative.dev/eventing v0.22.1-0.20210420082335-31cda4cec54b
 	knative.dev/hack v0.0.0-20210325223819-b6ab329907d3
-	knative.dev/pkg v0.0.0-20210412173742-b51994e3b312
+	knative.dev/pkg v0.0.0-20210420053235-1afd04993622
 )
 
 // For some reason this is required. Specifying v0.19.7 above
