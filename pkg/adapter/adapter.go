@@ -26,6 +26,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
+	"github.com/cloudevents/sdk-go/v2/client"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"
 	sourcesv1alpha1 "knative.dev/eventing-awssqs/pkg/apis/sources/v1alpha1"
@@ -76,7 +77,7 @@ func getRegion(url string) (string, error) {
 func (a *Adapter) initClient() error {
 	if a.client == nil {
 		var err error
-		if a.client, err = cloudevents.NewDefaultClient(); err != nil {
+		if a.client, err = client.NewHTTP(); err != nil {
 			return err
 		}
 	}
