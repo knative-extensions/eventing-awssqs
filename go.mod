@@ -11,15 +11,9 @@ require (
 	gonum.org/v1/gonum v0.0.0-20190331200053-3d26580ed485 // indirect
 	k8s.io/api v0.19.7
 	k8s.io/apimachinery v0.19.7
-	k8s.io/client-go v9.0.0+incompatible
+	k8s.io/client-go v0.19.7
 	k8s.io/code-generator v0.19.7
 	knative.dev/eventing v0.23.0
 	knative.dev/hack v0.0.0-20210428122153-93ad9129c268
 	knative.dev/pkg v0.0.0-20210510175900-4564797bf3b7
 )
-
-// For some reason this is required. Specifying v0.19.7 above
-// followed by go mod tidy changes it to v9.0.0+incompatible.
-// Adding this here fixes it.
-// https://github.com/knative-sandbox/eventing-awssqs/issues/36
-replace k8s.io/client-go => k8s.io/client-go v0.19.7
