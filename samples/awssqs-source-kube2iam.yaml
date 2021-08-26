@@ -11,6 +11,6 @@ spec:
     iam.amazonaws.com/role: AWS_IAM_ROLE
   queueUrl: QUEUE_URL
   sink:
-    apiVersion: messaging.knative.dev/v1alpha1
+    apiVersion: messaging.knative.dev/v1
     kind: Channel
     name: awssqs-test
