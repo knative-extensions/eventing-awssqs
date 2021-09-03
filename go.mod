@@ -13,9 +13,9 @@ require (
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v9.0.0+incompatible
 	k8s.io/code-generator v0.19.7
-	knative.dev/eventing v0.22.0
+	knative.dev/eventing v0.22.2
 	knative.dev/hack v0.0.0-20210325223819-b6ab329907d3
-	knative.dev/pkg v0.0.0-20210331065221-952fdd90dbb0
+	knative.dev/pkg v0.0.0-20210902173607-983897f9e37f
 )
 
 // For some reason this is required. Specifying v0.19.7 above
