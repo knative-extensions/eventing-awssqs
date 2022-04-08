@@ -6,6 +6,9 @@
 [![LICENSE](https://img.shields.io/github/license/knative-sandbox/eventing-awssqs.svg)](https://github.com/knative-sandbox/eventing-awssqs/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://knative.slack.com)
 
+**Deprecated in  favor of [TriggerMesh AWS SQS Source](https://github.com/triggermesh/aws-event-sources)**
+
+
 The Knative Eventing AWS SQS project provides a source implementation that
 registers for events on the specified SQS Queue
 
